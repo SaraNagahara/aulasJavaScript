@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="id">Id:
+        <input type="text" name="id" id="inputId">
+    </label><br>
+    <label for="descricao">Descrição:
+        <input type="text" name="descricao" id="inputdescricao">
+    </label><br>
+    <select  id="valores">
+        <option value="">Tabela De Valores:</option>
+        <option value="100.00">100.00</option>
+        <option value="150.00">150.00</option>
+        <option value="130.00">130.00</option>
+    </select>
+    <p>Categorias:</p>
+    <label for="bebida">Bebida: 
+        <input type="checkbox" name="bebida" value="bebida" id="bebida">
+    </label>
+    <label for="comida">Comida:
+        <input type="checkbox" name="comida" value="comida" id="comida">
+    </label>
+    <label for="limpeza">Limpeza:
+        <input type="checkbox" name="limpeza" value="limpeza" id="limpeza">
+    </label>
+    <div id="resultado"></div>
+    <button id="gravar">Gravar</button>
+    <button id="exibir">Exibir Dados</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

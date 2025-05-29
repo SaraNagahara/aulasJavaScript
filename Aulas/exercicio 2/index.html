@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulário Completo</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário com Todos os Tipos de Inputs</h1>
+    <p>Exemplo de HTML semântico com todos os campos de formulário disponíveis.</p>
+  </header>
+
+  <main>
+    <section>
+        <!-- Input de texto -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="input-text" name="nome">
+        <br>
+
+        <!-- Input de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" class="input-password" name="senha">
+        <br>
+
+        <!-- Input de email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="input-email" name="email">
+        <br>
+
+        <!-- Input de número -->
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" class="input-number" name="idade" min="0">
+        <br>
+
+        <!-- Input de telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" class="input-tel" name="telefone">
+        <br>
+
+        <!-- Input de URL -->
+        <label for="site">Site:</label>
+        <input type="url" id="site" class="input-url" name="site">
+        <br>
+
+        <!-- Input de busca -->
+        <label for="busca">Buscar:</label>
+        <input type="search" id="busca" class="input-search" name="busca">
+        <br>
+
+        <!-- Input de data -->
+        <label for="data">Data:</label>
+        <input type="date" id="data" class="input-date" name="data">
+        <br>
+
+        <!-- Input de hora -->
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" class="input-time" name="hora">
+        <br>
+
+        <!-- Input de semana -->
+        <label for="semana">Semana:</label>
+        <input type="week" id="semana" class="input-week" name="semana">
+        <br>
+
+        <!-- Input de mês -->
+        <label for="mes">Mês:</label>
+        <input type="month" id="mes" class="input-month" name="mes">
+        <br>
+
+        <!-- Input de cor -->
+        <label for="cor">Cor favorita:</label>
+        <input type="color" id="cor" class="input-color" name="cor">
+        <br>
+
+        <!-- Select (dropdown) -->
+        <label for="pais">País:</label>
+        <select id="pais" class="select-pais" name="pais">
+          <option value="">Selecione</option>
+          <option value="br">Brasil</option>
+          <option value="pt">Portugal</option>
+          <option value="us">Estados Unidos</option>
+        </select>
+        <br>
+
+        <!-- Checkbox -->
+        <p>Interesses:</p>
+        <input type="checkbox" id="html" class="checkbox-interesse" name="interesses" value="html">
+        <label for="interesse-html">HTML</label><br>
+
+        <input type="checkbox" id="css" class="checkbox-interesse" name="interesses" value="css">
+        <label for="interesse-css">CSS</label><br>
+
+        <input type="checkbox" id="js" class="checkbox-interesse" name="interesses" value="js">
+        <label for="interesse-js">JavaScript</label><br>
+
+        <!-- Radio buttons -->
+        <p>Gênero:</p>
+        <input type="radio" id="genero-feminino" class="radio-genero" name="genero" value="feminino">
+        <label for="genero-feminino">Feminino</label><br>
+
+        <input type="radio" id="genero-masculino" class="radio-genero" name="genero" value="masculino">
+        <label for="genero-masculino">Masculino</label><br>
+
+        <input type="radio" id="genero-outro" class="radio-genero" name="genero" value="outro">
+        <label for="genero-outro">Outro</label><br>
+
+        <!-- Input file -->
+        <label for="arquivo">Enviar arquivo:</label>
+        <input type="file" id="arquivo" class="input-file" name="arquivo">
+        <br>
+
+        <!-- Input hidden -->
+        <input type="hidden" id="token" class="input-hidden" name="token" value="Aqui vc n escolhe">
+        <br>
+
+        <!-- Textarea -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" class="textarea-mensagem" name="mensagem" rows="5" cols="30"></textarea>
+        <br>
+
+        <!-- Buttons -->
+        <button  id="enviar">Enviar</button>
+        <button  id="exibir">Exibir</button>
+        <button  id="limpar">Limpar</button>
+    </section>
+    <div id="resultado"></div>
+  </main>
+
+  
+  <script src="app.js"></script>
+</body>
+</html>
+

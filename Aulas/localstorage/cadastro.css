@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td{
+    border: 1px solid black;
+}
+
+table{
+    border: 1px solid black;
+}
+
+.esconder{
+    display: none;
+}
+
+.aparecer{
+    display: inline-block;
+}
